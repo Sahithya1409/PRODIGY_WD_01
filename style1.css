@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: lightblue;
+    padding: 10px;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: backround-color 0.5s,color 0.3s;
+
+}
+nav ul li a:hover {
+    background-color: darkblue;
+    color:#f0f8ff ;
+
+}
+.content{
+    margin-top: 50px;
+    padding: 20px;
+}
+section{
+    padding: 50px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
